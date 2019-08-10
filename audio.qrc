@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>audio/level1.mp3</file>
+        <file>audio/ThemeSong.mp3</file>
+        <file>audio/Select.wav</file>
+        <file>audio/coin.wav</file>
+        <file>audio/ghost.wav</file>
+        <file>audio/sprout.wav</file>
+        <file>audio/kick.wav</file>
+        <file>audio/hitwarptube.wav</file>
+        <file>audio/powerup.wav</file>
+        <file>audio/shrink.wav</file>
+        <file>audio/jump.wav</file>
+        <file>audio/fsprout.wav</file>
+        <file>audio/fireball.wav</file>
+        <file>audio/death.wav</file>
+        <file>audio/levelclear.wav</file>
+    </qresource>
+</RCC>
