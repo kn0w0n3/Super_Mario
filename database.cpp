@@ -62,10 +62,10 @@ bool chkUsr(Query Input,QSqlDatabase db){
 bool DBConnect(Connection C){
 //Connect to database
     C.db = QSqlDatabase::addDatabase("QMYSQL");
-    C.db.setHostName("209.129.8.7");
-    C.db.setDatabaseName("48037");
-    C.db.setUserName("48037");
-    C.db.setPassword("48037cis17b");
+    C.db.setHostName("");
+    C.db.setDatabaseName(");
+    C.db.setUserName("");
+    C.db.setPassword("");
 //Check Connection
     if(!C.db.open()){
         C.connected=false;
