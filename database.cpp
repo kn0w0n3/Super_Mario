@@ -63,7 +63,7 @@ bool DBConnect(Connection C){
 //Connect to database
     C.db = QSqlDatabase::addDatabase("QMYSQL");
     C.db.setHostName("");
-    C.db.setDatabaseName(");
+    C.db.setDatabaseName("");
     C.db.setUserName("");
     C.db.setPassword("");
 //Check Connection
