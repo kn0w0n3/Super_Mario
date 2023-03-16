@@ -27,7 +27,8 @@ private:
     QMediaPlayer *soundPlayer, *level1;
 
 signals:
-    stopMusic();
+    void stopMusic();
+
 public slots:
     void playSoundEffect(QString);
 
